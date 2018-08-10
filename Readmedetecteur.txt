@@ -4,12 +4,12 @@
 
 Une raspberry PI3
 Une carte micro SD de 16Go vide
-Un Žcran, un clavier et une souris.
+Un Écran, un clavier et une souris.
 Un ordinateur compatible wifi (Windows, Mac, Linux)
-Un dŽtecteur HC-SR501
-Une camŽra raspberry V2 NoIR
+Un dÉtecteur HC-SR501
+Une caméra raspberry V2 NoIR
 6 LEDs
-6 RŽsistances d'une centaine d'Ohm
+6 Résistances d'une centaine d'Ohm
 Un bouton poussoir
 Un amplificateur Kemo M031N
 Un haut-parleur Visaton FRS 5 X 2235 86 dB 52.5 mm
@@ -66,9 +66,12 @@ il vous faudra insŽrer un morceaux de mŽtal pour fixer le tout.
 
 <<<<<< Partie Mise en place >>>>>>
 
+Tout d'abord il faut activer les applications qui utilisent la connexion moins sécurisée sans les 
+paramètres de votre adresse email.
+
 Modifier ProgrammeFinal:
 A la ligne 51, vous pouvez saisir la durŽe en secondes de votre enregistrement vidéo.
-A la ligne 84, rentrez l'adresse complte gmail d'expŽdition.
+A la ligne 84, rentrez l'adresse complte gmail d'expŽdition (fonctionne avec tout les autres plateformes : il suffit de modifier la ligne 107 en remplaçant gmail par le système choisit, ex: adressetest@yaoo.com --> l107 : 'smtp.yahoo.com',587
 A la ligne 85, rentrez l'adresse complte gmail de rŽception.
 A la ligne 91, dŽfinissez l'objet de votre email.
 A la ligne 93, veuillez saisir le texte de votre email.
@@ -76,7 +79,7 @@ A la ligne 109, vous devez rentrer le mot de passe de l'adresse d'expŽdition.
 Avant de continuer, il faut que vous vous connectiez par internet (directement sur le site de gmail), ˆ l'adresse d'expŽdition, afin de faire conna”tre l'adresse IP de votre machine. Une fois que vous vous ætes connectez, vous pouvez fermer votre navigateur.
 
 A partir de là, vous pouvez dŽconnectez la raspberry en effectuant un SHUTDOWN (terminal commande : shutdown -h now)
-Pour vous connectez à la raspberry via votre ordinateur. Alimentez ˆ nouveau la raspberry PI. 
+Pour vous connectez à la raspberry via votre ordinateur. Alimentez à nouveau la raspberry PI. 
 Quel que soit votre ordinateur, connectez-vous au mme Wifi que la raspberry.
 #	Puis si vous ætes sous windows, tŽlŽchargez Putty : 
 https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html (32 ou 64 bits en fonction 
